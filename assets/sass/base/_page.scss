@@ -1,0 +1,53 @@
+// Global styling for this template
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    @include body-font;
+    width: 100%;
+}
+
+p {
+    line-height: 1.75;
+}
+
+a *{
+    color: $primary;
+    &:hover {
+        color: darken($primary, 10%);
+        text-decoration: none;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    @include heading-font;
+}
+
+// Highlight color customization
+::-moz-selection {
+  background: $primary;
+  text-shadow: none;
+}
+
+::selection {
+  background: $primary;
+  text-shadow: none;
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
