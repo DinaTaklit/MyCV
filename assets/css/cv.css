@@ -59,6 +59,16 @@ h2.section-header {
   text-transform: uppercase;
 }
 
+.sub-section-header {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 800;
+}
+.sub-section-header .date {
+  font-size: 10px;
+  color: #009fff;
+}
+
 ::-moz-selection {
   background: #009fff;
   text-shadow: none;
@@ -121,14 +131,6 @@ img::-moz-selection {
 /***********************************************/
 /** first Col **/
 /***********************************************/
-#frist-col .header {
-  font-size: 18px;
-  margin: 0;
-  font-weight: 800;
-}
-#frist-col .header span {
-  font-size: 16px;
-}
 #frist-col p {
   margin: 0;
   padding: 0;

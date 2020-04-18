@@ -57,6 +57,15 @@ h2.section-header{
   margin-bottom: 10px;
   text-transform: uppercase;
 }
+.sub-section-header{
+  font-size: 18px;
+  margin: 0;
+  font-weight: 800;
+  .date{
+    font-size: 10px;
+    color: $primary;
+  }
+}
 
 // Highlight color customization
 ::-moz-selection {
