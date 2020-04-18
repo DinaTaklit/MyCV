@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  padding-top: 30px;
+}
+
+p {
+  line-height: 1.75;
+  font-size: 14px;
+}
+
+a * {
+  color: #009fff;
+}
+a *:hover {
+  color: #007fcc;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+
+hr {
+  color: #009fff;
+  border: 1px solid #009fff;
+}
+
+.blue-box {
+  width: 35px;
+  height: 50px;
+  background-color: #009fff;
+}
+
+.primary-bg {
+  background-color: #009fff;
+}
+
+.section-padding {
+  padding-bottom: 20px;
+}
+
+::-moz-selection {
+  background: #009fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #009fff;
+  text-shadow: none;
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+/***********************************************/
+/** Header **/
+/***********************************************/
+#header {
+  color: #212529;
+}
+#header .header-section .header {
+  font-size: 32px;
+}
+#header .header-section .sub-header {
+  font-size: 18px;
+  color: #009fff;
+}
+#header .header-section .description {
+  font-size: 12px;
+  color: #343a40;
+  font-weight: 700;
+}
+#header .social-links ul {
+  list-style-type: none;
+}
+#header .social-links ul li {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+#header .social-links ul li a {
+  color: #212529;
+  text-decoration: none;
+}
+#header .social-links ul li i {
+  color: #212529;
+  padding-left: 3px;
+}
+#header img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid #009fff;
+}
+
+/***********************************************/
+/** first Col **/
+/***********************************************/
+#frist-col h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+#frist-col .header {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 800;
+}
+#frist-col .header span {
+  font-size: 16px;
+}
+#frist-col p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+#frist-col .location {
+  color: #868e96;
+  font-style: italic;
+  font-size: 11px;
+}
+#frist-col .experiences {
+  color: #212529;
+}
+#frist-col .experiences .sub-exp {
+  margin-bottom: 10px;
+}
+#frist-col .experiences .sub-exp .description {
+  font-weight: 600;
+}
+#frist-col .other-exp {
+  font-size: 12px;
+  font-weight: 600;
+}
+#frist-col .other-exp ul {
+  list-style-type: none;
+}
+#frist-col .other-exp ul .round-box {
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #009fff;
+}
+
+/***********************************************/
+/** Second Col **/
+/***********************************************/
+#second-col h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+#second-col p {
+  margin: 0;
+  font-size: 12px;
+}
+#second-col .skills .rate .round-circle, #second-col .languages .rate .round-circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #009fff;
+}
+#second-col .skills .sub-skill, #second-col .skills .sub-lang, #second-col .languages .sub-skill, #second-col .languages .sub-lang {
+  margin-bottom: 8px;
+}
+#second-col .volunteer, #second-col .organization, #second-col .certificates, #second-col .sub-addact {
+  margin-bottom: 10px;
+}
+#second-col .volunteer .header, #second-col .organization .header, #second-col .certificates .header, #second-col .sub-addact .header {
+  font-size: 15px;
+  margin: 0;
+}
+#second-col .volunteer .description, #second-col .organization .description, #second-col .certificates .description, #second-col .sub-addact .description {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+#second-col .certificates .header {
+  margin-bottom: 8px;
+}
+#second-col .interests .sub-inter {
+  border: 2px solid #adb5bd;
+  padding: 6px 8px;
+}
+
+/*# sourceMappingURL=cv.css.map */

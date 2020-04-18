@@ -9,10 +9,12 @@ body {
     overflow-x: hidden;
     @include body-font;
     width: 100%;
+    padding-top: 30px;
 }
 
 p {
     line-height: 1.75;
+    font-size: 14px;
 }
 
 a *{
@@ -31,6 +33,23 @@ h5,
 h6 {
     font-weight: 700;
     @include heading-font;
+}
+hr{
+  color: $primary;
+  border: 1px solid $primary;
+}
+
+.blue-box{
+  width: 35px;
+  height: 50px;
+  background-color: $primary;
+}
+
+.primary-bg{
+  background-color: $primary;
+}
+.section-padding{
+  padding-bottom: 20px;
 }
 
 // Highlight color customization
