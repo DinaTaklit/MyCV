@@ -12,14 +12,14 @@
             color: $primary;
         }
     }
-    .experiences{
+    .experiences, .education{
         .square-box{
             display: inline-block;
             height: 8px;
             width: 8px;
             background-color: $primary;
         }
-        .sub-exp{
+        .sub-exp, .sub-edu{
             margin-bottom: 10px;
         }
     }
@@ -46,4 +46,5 @@
             }
         }
     }
+
 }

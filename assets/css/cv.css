@@ -122,13 +122,13 @@ p.sub-section-description {
   font-size: 10px;
   color: #007fcc;
 }
-#frist-col .experiences .square-box {
+#frist-col .experiences .square-box, #frist-col .education .square-box {
   display: inline-block;
   height: 8px;
   width: 8px;
   background-color: #007fcc;
 }
-#frist-col .experiences .sub-exp {
+#frist-col .experiences .sub-exp, #frist-col .experiences .sub-edu, #frist-col .education .sub-exp, #frist-col .education .sub-edu {
   margin-bottom: 10px;
 }
 #frist-col .location {
