@@ -14,7 +14,7 @@
             }
         }
         .sub-skill, .sub-lang{
-            margin-bottom: 8px;
+            margin-bottom: 5px;
         }
     }
     .skills{
@@ -23,26 +23,37 @@
         }
     } 
 
-    .volunteer, .organization, .certificates, .sub-addact {
+    .volunteer, .organization{
         margin-bottom: 10px;
         .header{
-            font-size: 15px;
+            font-size: 14px;
             margin: 0;
         }
         .description{
             font-size: 12px;
+            font-weight: 600;
+            color: darken($gray-600,10);
             margin-bottom: 8px;
+            padding-left: 6px;
         }
     }
     .certificates{
-        .header{
-            margin-bottom: 8px;
+        .sub-section-description{
+            padding: 0;
+            margin-bottom: 3px;
+            .source{
+                color: $gray-600;
+                font-style: italic;
+                font-size: 11px;
+            }
         }
     }
-    .interests{
+    .interests{   
         .sub-inter{
             border: 2px solid $gray-500;
             padding: 6px 8px;
+            color: $gray-700;
+            font-weight: 600;
         }
     }
 }

@@ -160,28 +160,39 @@ p.sub-section-description {
   border: 2px solid #007fcc;
 }
 #second-col .skills .sub-skill, #second-col .skills .sub-lang, #second-col .languages .sub-skill, #second-col .languages .sub-lang {
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 #second-col .skills .sub-skills-header {
   color: #005f99;
 }
-#second-col .volunteer, #second-col .organization, #second-col .certificates, #second-col .sub-addact {
+#second-col .volunteer, #second-col .organization {
   margin-bottom: 10px;
 }
-#second-col .volunteer .header, #second-col .organization .header, #second-col .certificates .header, #second-col .sub-addact .header {
-  font-size: 15px;
+#second-col .volunteer .header, #second-col .organization .header {
+  font-size: 14px;
   margin: 0;
 }
-#second-col .volunteer .description, #second-col .organization .description, #second-col .certificates .description, #second-col .sub-addact .description {
+#second-col .volunteer .description, #second-col .organization .description {
   font-size: 12px;
+  font-weight: 600;
+  color: #6c757d;
   margin-bottom: 8px;
+  padding-left: 6px;
 }
-#second-col .certificates .header {
-  margin-bottom: 8px;
+#second-col .certificates .sub-section-description {
+  padding: 0;
+  margin-bottom: 3px;
+}
+#second-col .certificates .sub-section-description .source {
+  color: #868e96;
+  font-style: italic;
+  font-size: 11px;
 }
 #second-col .interests .sub-inter {
   border: 2px solid #adb5bd;
   padding: 6px 8px;
+  color: #495057;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=cv.css.map */
