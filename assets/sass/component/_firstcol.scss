@@ -3,25 +3,36 @@
 /***********************************************/
 
 #frist-col{
+    padding-right: 40px;
+    .sub-section-header{
+        font-size: 18px;
+        margin-bottom: 2px;
+        font-weight: 800;
+        .date{
+            font-size: 10px;
+            color: $primary;
+        }
+    }
 
+    .experiences{
+        .sub-exp{
+            margin-bottom: 10px;
+        }
+    }
     .location{
         color: $gray-600;
         font-style: italic;
         font-size: 11px;
     }
-    .experiences{
-        color: $gray-900;
-        .sub-exp{
-            margin-bottom: 10px;
-        }
-    }
-
     // Other experiences
     .other-exp{
-        font-size: 12px;
-        font-weight: 600;
         ul{
             list-style-type: none;
+            padding-left: 6px;
+            li{
+                font-weight: 600;
+                margin-bottom: 6px;
+            }
             .round-box{
                 display: inline-block;
                 height: 8px;
