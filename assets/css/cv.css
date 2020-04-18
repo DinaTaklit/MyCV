@@ -53,6 +53,12 @@ hr {
   padding-bottom: 20px;
 }
 
+h2.section-header {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
 ::-moz-selection {
   background: #009fff;
   text-shadow: none;
@@ -115,10 +121,6 @@ img::-moz-selection {
 /***********************************************/
 /** first Col **/
 /***********************************************/
-#frist-col h2 {
-  font-size: 28px;
-  margin-bottom: 10px;
-}
 #frist-col .header {
   font-size: 18px;
   margin: 0;
@@ -164,10 +166,6 @@ img::-moz-selection {
 /***********************************************/
 /** Second Col **/
 /***********************************************/
-#second-col h2 {
-  font-size: 28px;
-  margin-bottom: 10px;
-}
 #second-col p {
   margin: 0;
   font-size: 12px;
