@@ -122,6 +122,12 @@ p.sub-section-description {
   font-size: 10px;
   color: #007fcc;
 }
+#frist-col .experiences .square-box {
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  background-color: #007fcc;
+}
 #frist-col .experiences .sub-exp {
   margin-bottom: 10px;
 }

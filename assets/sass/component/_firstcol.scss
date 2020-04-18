@@ -13,6 +13,12 @@
         }
     }
     .experiences{
+        .square-box{
+            display: inline-block;
+            height: 8px;
+            width: 8px;
+            background-color: $primary;
+        }
         .sub-exp{
             margin-bottom: 10px;
         }
