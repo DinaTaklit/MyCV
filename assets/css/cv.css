@@ -32,6 +32,7 @@ h6 {
 }
 
 hr {
+  margin: 0 0 20px;
   color: #007fcc;
   border: 1px solid #007fcc;
 }
@@ -47,7 +48,7 @@ hr {
 }
 
 .section-padding {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 h2.section-header {
