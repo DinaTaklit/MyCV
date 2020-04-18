@@ -3,6 +3,9 @@
 /***********************************************/
 #header{
     color: $gray-900;
+    .first-box{
+        background-color: darken($primary,15);
+    }
     .header-section{ 
         .header{
             font-size: 32px;

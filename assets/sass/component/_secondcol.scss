@@ -3,6 +3,7 @@
 /***********************************************/
 #second-col{
     .skills, .languages {
+        font-weight: 600;
         .rate{
             .round-circle{
                 display: inline-block;
@@ -14,6 +15,11 @@
         }
         .sub-skill, .sub-lang{
             margin-bottom: 8px;
+        }
+    }
+    .skills{
+        .sub-skills-header{
+            color: darken($primary,10);
         }
     } 
 

@@ -62,22 +62,3 @@ p.sub-section-description{
   font-size: 13px;
   font-weight: 600;
 }
-
-// Highlight color customization
-::-moz-selection {
-  background: $primary;
-  text-shadow: none;
-}
-
-::selection {
-  background: $primary;
-  text-shadow: none;
-}
-
-img::selection {
-  background: transparent;
-}
-
-img::-moz-selection {
-  background: transparent;
-}

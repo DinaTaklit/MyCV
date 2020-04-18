@@ -14,10 +14,10 @@ body {
 }
 
 a * {
-  color: #009fff;
+  color: #007fcc;
 }
 a *:hover {
-  color: #007fcc;
+  color: #005f99;
   text-decoration: none;
 }
 
@@ -32,18 +32,18 @@ h6 {
 }
 
 hr {
-  color: #009fff;
-  border: 1px solid #009fff;
+  color: #007fcc;
+  border: 1px solid #007fcc;
 }
 
 .blue-box {
   width: 35px;
   height: 50px;
-  background-color: #009fff;
+  background-color: #007fcc;
 }
 
 .primary-bg {
-  background-color: #009fff;
+  background-color: #007fcc;
 }
 
 .section-padding {
@@ -63,36 +63,21 @@ p.sub-section-description {
   font-weight: 600;
 }
 
-::-moz-selection {
-  background: #009fff;
-  text-shadow: none;
-}
-
-::selection {
-  background: #009fff;
-  text-shadow: none;
-}
-
-img::selection {
-  background: transparent;
-}
-
-img::-moz-selection {
-  background: transparent;
-}
-
 /***********************************************/
 /** Header **/
 /***********************************************/
 #header {
   color: #212529;
 }
+#header .first-box {
+  background-color: #005080;
+}
 #header .header-section .header {
   font-size: 32px;
 }
 #header .header-section .sub-header {
   font-size: 18px;
-  color: #009fff;
+  color: #007fcc;
 }
 #header .header-section .description {
   font-size: 12px;
@@ -119,7 +104,7 @@ img::-moz-selection {
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  border: 4px solid #009fff;
+  border: 4px solid #007fcc;
 }
 
 /***********************************************/
@@ -135,7 +120,7 @@ img::-moz-selection {
 }
 #frist-col .sub-section-header .date {
   font-size: 10px;
-  color: #009fff;
+  color: #007fcc;
 }
 #frist-col .experiences .sub-exp {
   margin-bottom: 10px;
@@ -158,21 +143,27 @@ img::-moz-selection {
   height: 8px;
   width: 8px;
   border-radius: 50%;
-  background-color: #009fff;
+  background-color: #007fcc;
 }
 
 /***********************************************/
 /** Second Col **/
 /***********************************************/
+#second-col .skills, #second-col .languages {
+  font-weight: 600;
+}
 #second-col .skills .rate .round-circle, #second-col .languages .rate .round-circle {
   display: inline-block;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  border: 2px solid #009fff;
+  border: 2px solid #007fcc;
 }
 #second-col .skills .sub-skill, #second-col .skills .sub-lang, #second-col .languages .sub-skill, #second-col .languages .sub-lang {
   margin-bottom: 8px;
+}
+#second-col .skills .sub-skills-header {
+  color: #005f99;
 }
 #second-col .volunteer, #second-col .organization, #second-col .certificates, #second-col .sub-addact {
   margin-bottom: 10px;
