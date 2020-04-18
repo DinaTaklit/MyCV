@@ -13,8 +13,9 @@ body {
 }
 
 p {
-    line-height: 1.75;
-    font-size: 14px;
+    //line-height: 1.75;
+    margin: 0;
+    font-size: 12px;
 }
 
 a *{
@@ -34,6 +35,7 @@ h6 {
     font-weight: 700;
     @include heading-font;
 }
+
 hr{
   color: $primary;
   border: 1px solid $primary;
@@ -59,12 +61,18 @@ h2.section-header{
 }
 .sub-section-header{
   font-size: 18px;
-  margin: 0;
+  margin-bottom: 2px;
   font-weight: 800;
   .date{
     font-size: 10px;
     color: $primary;
   }
+}
+p.sub-section-description{
+  padding-top: 4px;
+  padding-left: 5px;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 // Highlight color customization

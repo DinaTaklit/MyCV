@@ -12,8 +12,8 @@ body {
 }
 
 p {
-  line-height: 1.75;
-  font-size: 14px;
+  margin: 0;
+  font-size: 12px;
 }
 
 a * {
@@ -61,12 +61,19 @@ h2.section-header {
 
 .sub-section-header {
   font-size: 18px;
-  margin: 0;
+  margin-bottom: 2px;
   font-weight: 800;
 }
 .sub-section-header .date {
   font-size: 10px;
   color: #009fff;
+}
+
+p.sub-section-description {
+  padding-top: 4px;
+  padding-left: 5px;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 ::-moz-selection {
@@ -131,11 +138,6 @@ img::-moz-selection {
 /***********************************************/
 /** first Col **/
 /***********************************************/
-#frist-col p {
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-}
 #frist-col .location {
   color: #868e96;
   font-style: italic;
@@ -146,9 +148,6 @@ img::-moz-selection {
 }
 #frist-col .experiences .sub-exp {
   margin-bottom: 10px;
-}
-#frist-col .experiences .sub-exp .description {
-  font-weight: 600;
 }
 #frist-col .other-exp {
   font-size: 12px;
@@ -168,10 +167,6 @@ img::-moz-selection {
 /***********************************************/
 /** Second Col **/
 /***********************************************/
-#second-col p {
-  margin: 0;
-  font-size: 12px;
-}
 #second-col .skills .rate .round-circle, #second-col .languages .rate .round-circle {
   display: inline-block;
   width: 20px;
