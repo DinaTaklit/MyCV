@@ -199,6 +199,9 @@ p.sub-section-description {
   font-style: italic;
   font-size: 11px;
 }
+#second-col .interests {
+  padding-right: 30px;
+}
 #second-col .interests .sub-inter {
   border: 2px solid #adb5bd;
   padding: 6px 8px;
