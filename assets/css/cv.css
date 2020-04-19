@@ -161,8 +161,8 @@ p.sub-section-description {
 }
 #second-col .skills .rate .round-circle, #second-col .languages .rate .round-circle {
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
   border: 2px solid #007fcc;
 }
