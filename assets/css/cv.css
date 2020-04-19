@@ -37,6 +37,11 @@ hr {
   border: 1px solid #007fcc;
 }
 
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
 .blue-box {
   width: 35px;
   height: 50px;
@@ -69,7 +74,7 @@ p.sub-section-description {
 /***********************************************/
 #header {
   color: #212529;
-  padding-right: 15px;
+  padding-right: 25px;
 }
 #header .first-box {
   background-color: #005080;
@@ -158,7 +163,7 @@ p.sub-section-description {
 /** Second Col **/
 /***********************************************/
 #second-col {
-  padding-right: 15px;
+  padding-right: 25px;
 }
 #second-col .skills, #second-col .languages {
   font-weight: 600;

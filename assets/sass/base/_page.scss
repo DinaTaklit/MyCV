@@ -37,7 +37,10 @@ hr{
   color: $primary;
   border: 1px solid $primary;
 }
-
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
 .blue-box{
   width: 35px;
   height: 50px;
