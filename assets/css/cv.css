@@ -69,6 +69,7 @@ p.sub-section-description {
 /***********************************************/
 #header {
   color: #212529;
+  padding-right: 15px;
 }
 #header .first-box {
   background-color: #005080;
@@ -156,6 +157,9 @@ p.sub-section-description {
 /***********************************************/
 /** Second Col **/
 /***********************************************/
+#second-col {
+  padding-right: 15px;
+}
 #second-col .skills, #second-col .languages {
   font-weight: 600;
 }
