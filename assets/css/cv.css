@@ -195,6 +195,9 @@ p.sub-section-description {
   margin-bottom: 8px;
   padding-left: 6px;
 }
+#second-col .volunteer a:hover, #second-col .organization a:hover {
+  text-decoration: none;
+}
 #second-col .certificates .sub-section-description {
   padding: 0;
   margin-bottom: 3px;
